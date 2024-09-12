@@ -1,0 +1,273 @@
+Available databases: ['TEST', 'admin', 'config', 'local', 'sample']
+Collections in sample database: ['zips', 'books']
+One document from books collection:
+{'_id': 1,
+ 'authors': ['W. Frank Ableson', 'Charlie Collins', 'Robi Sen'],
+ 'categories': ['Open Source', 'Mobile'],
+ 'isbn': '1933988673',
+ 'longDescription': 'Android is an open source mobile phone platform based on '
+                    'the Linux operating system and developed by the Open '
+                    'Handset Alliance, a consortium of over 30 hardware, '
+                    'software and telecom companies that focus on open '
+                    'standards for mobile devices. Led by search giant, '
+                    'Google, Android is designed to deliver a better and more '
+                    'open and cost effective mobile experience.    Unlocking '
+                    "Android: A Developer's Guide provides concise, hands-on "
+                    'instruction for the Android operating system and '
+                    'development tools. This book teaches important '
+                    'architectural concepts in a straightforward writing style '
+                    'and builds on this with practical and useful examples '
+                    'throughout. Based on his mobile development experience '
+                    'and his deep knowledge of the arcane Android technical '
+                    'documentation, the author conveys the know-how you need '
+                    'to develop practical applications that build upon or '
+                    'replace any of Androids features, however small.    '
+                    "Unlocking Android: A Developer's Guide prepares the "
+                    'reader to embrace the platform in easy-to-understand '
+                    'language and builds on this foundation with re-usable '
+                    'Java code examples. It is ideal for corporate and '
+                    'hobbyists alike who have an interest, or a mandate, to '
+                    "deliver software functionality for cell phones.    WHAT'S "
+                    "INSIDE:        * Android's place in the market      * "
+                    'Using the Eclipse environment for Android '
+                    'development      * The Intents - how and why they are '
+                    'used      * Application classes:            o '
+                    'Activity            o Service            o '
+                    'IntentReceiver       * User interface design      * Using '
+                    'the ContentProvider to manage data      * Persisting data '
+                    'with the SQLite database      * Networking examples      '
+                    '* Telephony applications      * Notification methods      '
+                    '* OpenGL, animation & multimedia      * Sample '
+                    'Applications  ',
+ 'pageCount': 416,
+ 'publishedDate': datetime.datetime(2009, 4, 1, 7, 0),
+ 'shortDescription': "Unlocking Android: A Developer's Guide provides concise, "
+                     'hands-on instruction for the Android operating system '
+                     'and development tools. This book teaches important '
+                     'architectural concepts in a straightforward writing '
+                     'style and builds on this with practical and useful '
+                     'examples throughout.',
+ 'status': 'PUBLISH',
+ 'thumbnailUrl': 'https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg',
+ 'title': 'Unlocking Android'}
+Number of documents in books collection: 431
+Number of books with more than 400 pages: 157
+Number of books with more than 400 pages and published: 155
+Number of books with keyword 'Android' in description: 4
+Distinct categories:
+{'_id': None,
+ 'categories0': ['Python',
+                 'Microsoft .NET',
+                 'Open Source',
+                 'Algorithmic Art',
+                 'Theory',
+                 'In Action',
+                 'Perl',
+                 'Object-Technology Programming',
+                 'Software Engineering',
+                 'Web Development',
+                 'PowerBuilder',
+                 'Microsoft/.NET',
+                 'PHP',
+                 'SOA',
+                 'Internet',
+                 'Microsoft',
+                 'Mobile Technology',
+                 'Java',
+                 'Programming',
+                 'Miscellaneous',
+                 'Business',
+                 'XML',
+                 'Networking',
+                 'java',
+                 'Next Generation Databases',
+                 'Client-Server',
+                 'Object-Oriented Programming',
+                 'Computer Graphics',
+                 'internet'],
+ 'categories1': ['Networking',
+                 'Software Engineering',
+                 'S',
+                 'Business',
+                 'Java',
+                 '',
+                 'Perl',
+                 'Theory',
+                 '.NET',
+                 'P',
+                 'Mobile',
+                 'Open Source',
+                 'Python',
+                 'Computer Graphics',
+                 'Software Development',
+                 'Client-Server',
+                 'Internet']}
+Number of books containing Python, Java, C++, or Scala in long description: 131
+Statistical information about database:
+{'_id': 'Python',
+ 'avgPages': 482.3333333333333,
+ 'maxPages': 688,
+ 'minPages': 350}
+{'_id': 'Microsoft .NET',
+ 'avgPages': 437.02941176470586,
+ 'maxPages': 848,
+ 'minPages': 0}
+{'_id': 'Open Source', 'avgPages': 474.0, 'maxPages': 532, 'minPages': 416}
+{'_id': 'P', 'avgPages': 512.0, 'maxPages': 512, 'minPages': 512}
+{'_id': 'Theory',
+ 'avgPages': 420.42857142857144,
+ 'maxPages': 591,
+ 'minPages': 280}
+{'_id': '.NET', 'avgPages': 925.0, 'maxPages': 925, 'minPages': 925}
+{'_id': 'Algorithmic Art', 'avgPages': 0.0, 'maxPages': 0, 'minPages': 0}
+{'_id': 'Perl', 'avgPages': 385.3333333333333, 'maxPages': 504, 'minPages': 304}
+{'_id': '', 'avgPages': 284.0, 'maxPages': 368, 'minPages': 200}
+{'_id': 'In Action', 'avgPages': 0.0, 'maxPages': 0, 'minPages': 0}
+{'_id': 'Object-Technology Programming',
+ 'avgPages': 200.0,
+ 'maxPages': 200,
+ 'minPages': 200}
+{'_id': 'S', 'avgPages': 350.0, 'maxPages': 350, 'minPages': 350}
+{'_id': 'Software Engineering',
+ 'avgPages': 287.75,
+ 'maxPages': 544,
+ 'minPages': 0}
+{'_id': 'Web Development',
+ 'avgPages': 441.47058823529414,
+ 'maxPages': 688,
+ 'minPages': 300}
+{'_id': 'PowerBuilder',
+ 'avgPages': 433.7142857142857,
+ 'maxPages': 550,
+ 'minPages': 362}
+{'_id': 'Microsoft/.NET', 'avgPages': 0.0, 'maxPages': 0, 'minPages': 0}
+{'_id': 'PHP', 'avgPages': 552.0, 'maxPages': 552, 'minPages': 552}
+{'_id': 'SOA', 'avgPages': 250.0, 'maxPages': 250, 'minPages': 250}
+{'_id': 'Internet',
+ 'avgPages': 441.2439024390244,
+ 'maxPages': 912,
+ 'minPages': 0}
+{'_id': 'Microsoft', 'avgPages': 572.375, 'maxPages': 925, 'minPages': 344}
+{'_id': 'Software Development',
+ 'avgPages': 600.0,
+ 'maxPages': 600,
+ 'minPages': 600}
+{'_id': 'Mobile', 'avgPages': 416.0, 'maxPages': 416, 'minPages': 416}
+{'_id': 'Mobile Technology', 'avgPages': 296.5, 'maxPages': 504, 'minPages': 0}
+{'_id': 'Miscella', 'avgPages': 0.0, 'maxPages': 0, 'minPages': 0}
+{'_id': 'Java', 'avgPages': 412.21875, 'maxPages': 1088, 'minPages': 0}
+{'_id': 'Programming',
+ 'avgPages': 362.1666666666667,
+ 'maxPages': 570,
+ 'minPages': 0}
+{'_id': 'Miscellaneous', 'avgPages': 706.0, 'maxPages': 1096, 'minPages': 316}
+{'_id': 'Business',
+ 'avgPages': 404.1666666666667,
+ 'maxPages': 696,
+ 'minPages': 180}
+{'_id': 'Client Server', 'avgPages': 368.0, 'maxPages': 368, 'minPages': 368}
+{'_id': 'XML', 'avgPages': 482.0, 'maxPages': 680, 'minPages': 304}
+{'_id': 'Networking',
+ 'avgPages': 366.42857142857144,
+ 'maxPages': 591,
+ 'minPages': 0}
+{'_id': 'java', 'avgPages': 0.0, 'maxPages': 0, 'minPages': 0}
+{'_id': 'Next Generation Databases',
+ 'avgPages': 0.0,
+ 'maxPages': 0,
+ 'minPages': 0}
+{'_id': 'Client-Server', 'avgPages': 516.0, 'maxPages': 1101, 'minPages': 220}
+{'_id': 'Computer Graph', 'avgPages': 400.0, 'maxPages': 400, 'minPages': 400}
+{'_id': 'Object-Oriented Programming',
+ 'avgPages': 408.5,
+ 'maxPages': 512,
+ 'minPages': 350}
+{'_id': 'Computer Graphics',
+ 'avgPages': 520.3333333333334,
+ 'maxPages': 840,
+ 'minPages': 328}
+{'_id': 'internet', 'avgPages': 400.0, 'maxPages': 400, 'minPages': 400}
+First 20 books published after 2009:
+{'_id': 2, 'day': 14, 'month': 1, 'year': 2011}
+{'_id': 3, 'day': 3, 'month': 6, 'year': 2011}
+{'_id': 5, 'day': 15, 'month': 11, 'year': 2010}
+{'_id': 8, 'day': 15, 'month': 10, 'year': 2010}
+{'_id': 9, 'day': 4, 'month': 6, 'year': 2012}
+{'_id': 10, 'day': 12, 'month': 12, 'year': 2011}
+{'_id': 16, 'day': 16, 'month': 4, 'year': 2010}
+{'_id': 17, 'day': 12, 'month': 12, 'year': 2011}
+{'_id': 30, 'day': 1, 'month': 6, 'year': 2010}
+{'_id': 36, 'day': 15, 'month': 5, 'year': 2011}
+{'_id': 37, 'day': 13, 'month': 2, 'year': 2012}
+{'_id': 41, 'day': 1, 'month': 11, 'year': 2013}
+{'_id': 45, 'day': 1, 'month': 1, 'year': 2010}
+{'_id': 52, 'day': 4, 'month': 9, 'year': 2010}
+{'_id': 54, 'day': 30, 'month': 9, 'year': 2011}
+{'_id': 65, 'day': 17, 'month': 10, 'year': 2012}
+{'_id': 73, 'day': 13, 'month': 4, 'year': 2012}
+{'_id': 74, 'day': 27, 'month': 7, 'year': 2012}
+{'_id': 133, 'day': 6, 'month': 4, 'year': 2011}
+{'_id': 137, 'day': 13, 'month': 2, 'year': 2012}
+First 20 authors in chronological order:
+{'_id': 531, 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada2'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada6'), 'authors': []}
+{'_id': 272, 'authors': []}
+{'_id': 530, 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ad9e'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada1'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06adaa'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada0'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada3'), 'authors': []}
+{'_id': 707, 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ad9d'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada5'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ad9f'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada7'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06adac'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06adab'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada9'), 'authors': []}
+{'_id': ObjectId('53c2ae8528d75d572c06ada8'), 'authors': []}
+{'_id': 532, 'authors': []}
+Top 10 most prolific first authors:
+{'_id': None, 'count': 37}
+{'_id': 'Vikram Goyal', 'count': 12}
+{'_id': 'Don Jones', 'count': 6}
+{'_id': 'Craig Walls', 'count': 4}
+{'_id': 'Christian Bauer', 'count': 4}
+{'_id': 'Erik Hatcher', 'count': 3}
+{'_id': 'Tim Hatton', 'count': 3}
+{'_id': 'Jeffrey Palermo', 'count': 3}
+{'_id': 'Richard Siddaway', 'count': 3}
+{'_id': 'Dave Crane', 'count': 3}
+Distribution of number of authors:
+{'_id': 0, 'count': 37}
+{'_id': 1, 'count': 206}
+{'_id': 2, 'count': 105}
+{'_id': 3, 'count': 9}
+{'_id': 4, 'count': 47}
+{'_id': 5, 'count': 16}
+{'_id': 6, 'count': 6}
+{'_id': 7, 'count': 2}
+{'_id': 8, 'count': 3}
+Occurrence of each author by index:
+{'_id': 'Vikram Goyal', 'count': 12}
+{'_id': 'Richard Siddaway', 'count': 6}
+{'_id': 'Don Jones', 'count': 6}
+{'_id': 'Yehuda Katz', 'count': 5}
+{'_id': 'Jon Skeet', 'count': 5}
+{'_id': 'Gavin King', 'count': 5}
+{'_id': 'Christian Bauer', 'count': 5}
+{'_id': 'Craig Walls', 'count': 4}
+{'_id': 'Greg Low', 'count': 4}
+{'_id': 'Erik Hatcher', 'count': 4}
+{'_id': 'Kalen Delaney', 'count': 4}
+{'_id': 'Shannon Appelcline', 'count': 3}
+{'_id': 'Paul S. Randal', 'count': 3}
+{'_id': 'Christopher Allen', 'count': 3}
+{'_id': 'Dave Crane', 'count': 3}
+{'_id': 'Kimberly L. Tripp', 'count': 3}
+{'_id': 'Daniel Minoli', 'count': 3}
+{'_id': 'Jimmy Bogard', 'count': 3}
+{'_id': 'Bear Bibeault', 'count': 3}
+{'_id': 'Gary Gregory', 'count': 3}
